@@ -4,14 +4,15 @@ public class linearS {
 	   
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt(),k,i;
-        System.out.println("enter element to be search");
-        k=scan.nextInt();
-        int a[]=new int[n];
         
+        int a[]=new int[n];
+
         for (i = 0; i < n; i++)
          {
             a[i]=scan.nextInt();
         }
+        System.out.println("enter element to be search");
+        k=scan.nextInt();
         scan.close();
         for (i = 0; i < n-1; i++)
          {
